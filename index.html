@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cherish</title>
-    <style type="text/css">
-        h1{
-            text-align: center;
-            font-size: 50px;
-        }
-    </style>
-</head>
-<body>
-<h1>这是个人blog</h1>
-</body>
-</html>
+---
+layout: default
+title: Home
+menu: no
+---
+<h1 class="page-title">Articles</h1>
+<div class="home">
+<div class="post-list">
+{% for post in site.posts %}
+<a style="text-decoration:none"  href="{{ post.url | prepend: site.baseurl }}">
+      {% include post-cards.html %}
+</a>
+{% endfor %}
+</div>
+</div>
+
+
