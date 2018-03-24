@@ -1,29 +1,31 @@
-Bheema is a theme suitabel for image heavy journal kind of websites. 
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-Demo: [http://webjeda.com/ashwath/](http://webjeda.com/ashwath/)
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
+## Demo
 
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
+The main page would look like this:
 
-## Screenshots
-Default theme:
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Default.png)
+The post page would look like this:
 
-Color schemes (Full version)
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Purple.png)
+## Features
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Blood.png)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Mango.png)
+## Installation:
 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+### License
 
-## License
-MIT License
+GNU General Public License v3.0
